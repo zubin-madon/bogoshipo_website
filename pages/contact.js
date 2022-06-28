@@ -12,14 +12,16 @@ function Contact() {
 
   const [state, handleSubmit] = useForm("mbjweqyn");
 
-
+    function errorAlert() {
+        alert("cannot leave any field blank.")
+    }
     if (state.succeeded) {
         console.log(state)
                 return <p className="text-2xl text-primary-focus py-24 text-center">Thanks! We will get back to you ASAP! For a faster response DM us on <a className="text-accent-content" href="https://twitter.com/bogoshipo_pets" target="_blank" rel="noreferrer" alt="twitter">Twitter.</a></p>;
         }
 
   return (
-    <form className="text-primary-focus bg-primary-content body-font relative" onSubmit={handleSubmit}>
+    <form className="text-primary-focus bg-primary-content body-font relative" onSubmit={(fullname.length>0 && email.length>0 && message.length > 0) ? handleSubmit : errorAlert}>
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-base-content">
