@@ -19,10 +19,10 @@ export default function Home() {
       <h1 className="text-4xl mb-5">What Is Bogoshipo?</h1>
       <p className="mb-8 text-2xl text-primary">A near serverless game developed in Unity. Users breed and raise virtual pets on the blockchain.  Players start by adopting a pet from the pet shelter. 
                     To raise healthy and happy pets, players must care for them, play mini-games with them and indulge them with a variety of accessories, grooming, spa treatments and more. 
-                    Only healthy and happy pets are allowed to breed and spawn new variants.<br /><br /> Bogoshipo's breeding algorithm is designed to create surprising
+                    Only healthy and happy pets are allowed to breed and spawn new variants.<br /><br /> Bogoshipo&apos;s breeding algorithm is designed to create surprising
                         and shocking new variants which inherit traits from the parents. We used Unity Shader Graphs to create thousands of textures and millions of colour swatch permutations. 
                         Combined with hundreds of variant body parts  created by a formidable line-up of character artists, Bogoshipo will throw up shocking and exciting new pet characters 
-                        which can be traded as NFTs. <br /><br />Bogoshipo brings back 90's nostalgia of Tamagotchi, infused with a heavy dose of steroids thanks to cutting edge Anima 2D bone
+                        which can be traded as NFTs. <br /><br />Bogoshipo brings back 90&apos;s nostalgia of Tamagotchi, infused with a heavy dose of steroids thanks to cutting edge Anima 2D bone
                         animations, which transmogriphy the Pets into truly sentient, living, breathing beings.</p>
       
      
