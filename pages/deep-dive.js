@@ -5,15 +5,15 @@ function DeepDive() {
   return (
     <Fragment>
       <div
-        tabindex="0"
-        class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
+        tabIndiex="0"
+        className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
       >
-        <div class="collapse-title text-xl font-medium">
+        <div className="collapse-title text-xl font-medium">
           <h1 className="text-2xl text-base-content p-3">
             What Makes Bogoshipo Unique?
           </h1>
         </div>
-        <div class="collapse-content">
+        <div className="collapse-content">
           <p className="text-primary text-xl text-justify bg-primary-content p-5 rounded-lg">
             Bogoshipo will be initially launched as a completely server less
             game. The client app will update the game state in increments to the
@@ -32,15 +32,15 @@ function DeepDive() {
       </div>
 
       <div
-        tabindex="1"
-        class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
+        tabIndiex="1"
+        className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
       >
-        <div class="collapse-title text-xl font-medium">
+        <div className="collapse-title text-xl font-medium">
           <h1 className="text-2xl text-base-content p-3">
             Breeding Algorithm
           </h1>
         </div>
-        <div class="collapse-content">
+        <div className="collapse-content">
           <p className="text-primary text-xl text-justify bg-primary-content p-5 rounded-lg">
           Bogoshipo&apos;s pet gene system and the breeding algorithm will
                   create the widest, most shocking pet variants; with millions
@@ -55,15 +55,15 @@ function DeepDive() {
 
       
       <div
-        tabindex="1"
-        class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
+        tabIndiex="2"
+        className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
       >
-        <div class="collapse-title text-xl font-medium">
+        <div className="collapse-title text-xl font-medium">
           <h1 className="text-2xl text-base-content p-3">
           UX and Animation
           </h1>
         </div>
-        <div class="collapse-content">
+        <div className="collapse-content">
           <p className="text-primary text-xl text-justify bg-primary-content p-5 rounded-lg">
           Animations are what bring our pets to life and convince the
                   carers that their virtual friend is a sentient being. We are
@@ -85,15 +85,15 @@ function DeepDive() {
 
 
       <div
-        tabindex="1"
-        class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
+        tabIndiex="3"
+        className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
       >
-        <div class="collapse-title text-xl font-medium">
+        <div className="collapse-title text-xl font-medium">
           <h1 className="text-2xl text-base-content p-3">
           Mini-games
           </h1>
         </div>
-        <div class="collapse-content">
+        <div className="collapse-content">
           <p className="text-primary text-xl text-justify bg-primary-content p-5 rounded-lg">
           Bogoshipo will have many mini-games within the main game.
                   These games will challenge the player&apos;s dexterity and
@@ -105,15 +105,15 @@ function DeepDive() {
       </div>
 
       <div
-        tabindex="1"
-        class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
+        tabIndiex="4"
+        className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
       >
-        <div class="collapse-title text-xl font-medium">
+        <div className="collapse-title text-xl font-medium">
           <h1 className="text-2xl text-base-content p-3">
           Pet Memorial
           </h1>
         </div>
-        <div class="collapse-content">
+        <div className="collapse-content">
           <p className="text-primary text-xl text-justify bg-primary-content p-5 rounded-lg">
           Deceased pets will be immortalized in the “pet memorial”
                   within the game. Users will also have the option of making
@@ -127,15 +127,15 @@ function DeepDive() {
 
 
       <div
-        tabindex="1"
-        class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
+        tabIndiex="5"
+        className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
       >
-        <div class="collapse-title text-xl font-medium">
+        <div className="collapse-title text-xl font-medium">
           <h1 className="text-2xl text-base-content p-3">
           Gene System Explained
           </h1>
         </div>
-        <div class="collapse-content">
+        <div className="collapse-content">
           <p className="text-primary text-xl text-justify bg-primary-content p-5 rounded-lg">
           It is difficult to condense the entire gene system code in
                   this section, but we will attempt to touch on it at a very
