@@ -73,7 +73,7 @@ function SneakPreviews() {
         </div>
       </div>
 
-      <div className="divider"></div>
+     
     </Fragment>
   );
 }

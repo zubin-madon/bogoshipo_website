@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Team() {
   return (
-    <section className="text-gray-400 bg-primary-content body-font">
+    <section className="text-gray-400 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
         <h1 className="text-6xl text-base-content p-3">
@@ -13,7 +13,7 @@ function Team() {
         </div>
         <div className="flex flex-wrap -m-2 text-2xl">
           <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-            <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+            <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg bg-primary-content">
               <Image
                 alt="Zubin Madon"
                 className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
@@ -31,7 +31,7 @@ function Team() {
             </div>
           </div>
           <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-            <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+            <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg bg-primary-content">
             <Image
                 alt="Andre"
                 className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
@@ -47,7 +47,7 @@ function Team() {
             </div>
           </div>
           <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-            <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+            <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg bg-primary-content">
             <Image
                 alt="Claudia"
                 className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
@@ -63,7 +63,7 @@ function Team() {
             </div>
           </div>
           <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-            <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+            <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg bg-primary-content">
             <Image
                 alt="Lipi Gupta"
                 className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
@@ -79,7 +79,7 @@ function Team() {
             </div>
           </div>
           <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-            <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+            <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg bg-primary-content">
             <Image
                 alt="Pavlo Dolhotor"
                 className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
@@ -95,7 +95,7 @@ function Team() {
             </div>
           </div>
           <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-            <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+            <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg bg-primary-content">
             <Image
                 alt="Latifa Oubennacer"
                 className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"

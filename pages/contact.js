@@ -20,7 +20,7 @@ function Contact() {
         }
 
   return (
-    <form className="text-primary-focus bg-primary-content body-font relative" onSubmit={(fullname.length>0 && email.length>0 && message.length > 0) ? handleSubmit : errorAlert}>
+    <form className="text-primary-focus body-font relative" onSubmit={(fullname.length>0 && email.length>0 && message.length > 0) ? handleSubmit : errorAlert}>
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-base-content">
@@ -45,7 +45,7 @@ function Contact() {
                   onChange={(e) => {
               setFullname(e.target.value);
             }}
-                  className="w-full bg-neutral bg-opacity-40 rounded border border-gray-700 focus:border-red-500 focus:bg-gray-900 focus:ring-2 focus:ring-red-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  className="w-full bg-primary-content rounded border border-gray-700 focus:border-red-500 focus:bg-gray-900 focus:ring-2 focus:ring-red-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
                 <ValidationError 
             prefix="fullname" 
@@ -67,7 +67,7 @@ function Contact() {
             onChange={(e) => {
               setEmail(e.target.value);
             }}
-                  className="w-full bg-neutral bg-opacity-40 rounded border border-gray-700 focus:border-red-500 focus:bg-gray-900 focus:ring-2 focus:ring-red-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  className="w-full bg-primary-content rounded border border-gray-700 focus:border-red-500 focus:bg-gray-900 focus:ring-2 focus:ring-red-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
                 <ValidationError 
         prefix="Email" 
@@ -88,7 +88,7 @@ function Contact() {
             onChange={(e) => {
               setMessage(e.target.value);
             }}
-                  className="w-full bg-neutral bg-opacity-40 rounded border border-gray-700 focus:border-red-500 focus:bg-gray-900 focus:ring-2 focus:ring-red-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                  className="w-full bg-primary-content rounded border border-gray-700 focus:border-red-500 focus:bg-gray-900 focus:ring-2 focus:ring-red-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                 ></textarea>
                 <ValidationError 
         prefix="Message" 

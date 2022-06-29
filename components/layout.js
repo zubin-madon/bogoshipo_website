@@ -5,8 +5,9 @@ function Layout({ children }) {
   return (
     <Fragment>
       <Navbar />
-      <main>{children}</main>
-      <footer className="text-center py-92 mt-10">
+      <main className="h-screen">{children}</main>
+      <div className="divider"></div>
+      <footer className="text-center">
         <p>Copyrights {new Date().getFullYear()} Bogoshipo.com</p>
       </footer>
     </Fragment>
