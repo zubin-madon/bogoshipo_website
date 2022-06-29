@@ -4,17 +4,12 @@ import { Fragment } from "react";
 function DeepDive() {
   return (
     <Fragment>
-      <div
-        tabIndiex="0"
-        className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
-      >
-        <div className="collapse-title text-xl font-medium">
-          <h1 className="text-2xl text-base-content p-3">
+    <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
+  <div class="collapse-title text-2xl text-base-content p-3">
             What Makes Bogoshipo Unique?
-          </h1>
-        </div>
-        <div className="collapse-content">
-          <p className="text-primary text-xl text-justify bg-primary-content p-5 rounded-lg">
+  </div>
+  <div class="collapse-content"> 
+  <p className="text-primary text-xl text-justify bg-primary-content p-5 rounded-lg">
             Bogoshipo will be initially launched as a completely server less
             game. The client app will update the game state in increments to the
             blockchain. Every client will be able to perfectly rebuild the
@@ -28,20 +23,15 @@ function DeepDive() {
               builds.
             </b>
           </p>
-        </div>
-      </div>
+  </div>
+</div>
 
-      <div
-        tabIndiex="1"
-        className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
-      >
-        <div className="collapse-title text-xl font-medium">
-          <h1 className="text-2xl text-base-content p-3">
-            Breeding Algorithm
-          </h1>
-        </div>
-        <div className="collapse-content">
-          <p className="text-primary text-xl text-justify bg-primary-content p-5 rounded-lg">
+<div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
+  <div class="collapse-title text-2xl text-base-content p-3">
+  Breeding Algorithm
+  </div>
+  <div class="collapse-content"> 
+  <p className="text-primary text-xl text-justify bg-primary-content p-5 rounded-lg">
           Bogoshipo&apos;s pet gene system and the breeding algorithm will
                   create the widest, most shocking pet variants; with millions
                   of colour permutations, thousands of Unity shaders, textures
@@ -50,21 +40,16 @@ function DeepDive() {
                   our pet variants will surpass any other games in its class and
                   create an exciting market for NFT collectors.
           </p>
-        </div>
-      </div>
+  </div>
+</div>
 
-      
-      <div
-        tabIndiex="2"
-        className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
-      >
-        <div className="collapse-title text-xl font-medium">
-          <h1 className="text-2xl text-base-content p-3">
-          UX and Animation
-          </h1>
-        </div>
-        <div className="collapse-content">
-          <p className="text-primary text-xl text-justify bg-primary-content p-5 rounded-lg">
+
+<div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
+  <div class="collapse-title text-2xl text-base-content p-3">
+  UX and Animation
+  </div>
+  <div class="collapse-content"> 
+  <p className="text-primary text-xl text-justify bg-primary-content p-5 rounded-lg">
           Animations are what bring our pets to life and convince the
                   carers that their virtual friend is a sentient being. We are
                   extremely proud of our detailed bone animations, created by
@@ -78,65 +63,46 @@ function DeepDive() {
                   will be rewarded with affectionate gestures such as slurpy
                   tongue licks.
           </p>
-        </div>
-      </div>
+  </div>
+</div>
 
-
-
-
-      <div
-        tabIndiex="3"
-        className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
-      >
-        <div className="collapse-title text-xl font-medium">
-          <h1 className="text-2xl text-base-content p-3">
-          Mini-games
-          </h1>
-        </div>
-        <div className="collapse-content">
-          <p className="text-primary text-xl text-justify bg-primary-content p-5 rounded-lg">
+<div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
+  <div class="collapse-title text-2xl text-base-content p-3">
+  Mini-games
+  </div>
+  <div class="collapse-content"> 
+  <p className="text-primary text-xl text-justify bg-primary-content p-5 rounded-lg">
           Bogoshipo will have many mini-games within the main game.
                   These games will challenge the player&apos;s dexterity and
                   cognitive function. Winning points in these games will
                   increase the pet&apos;s health and happiness quotient. We plan
                   to add a p2e component into the mix.
           </p>
-        </div>
-      </div>
+  </div>
+</div>
 
-      <div
-        tabIndiex="4"
-        className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
-      >
-        <div className="collapse-title text-xl font-medium">
-          <h1 className="text-2xl text-base-content p-3">
-          Pet Memorial
-          </h1>
-        </div>
-        <div className="collapse-content">
-          <p className="text-primary text-xl text-justify bg-primary-content p-5 rounded-lg">
+
+<div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
+  <div class="collapse-title text-2xl text-base-content p-3">
+  Pet Memorial
+  </div>
+  <div class="collapse-content"> 
+  <p className="text-primary text-xl text-justify bg-primary-content p-5 rounded-lg">
           Deceased pets will be immortalized in the “pet memorial”
                   within the game. Users will also have the option of making
                   custom designed NFTs as memorials on our upcoming platform
                   eternally.live. Eternally will be an NFT platform where users
                   can memorialize departed loved ones.
           </p>
-        </div>
-      </div>
+  </div>
+</div>
 
-
-
-      <div
-        tabIndiex="5"
-        className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
-      >
-        <div className="collapse-title text-xl font-medium">
-          <h1 className="text-2xl text-base-content p-3">
-          Gene System Explained
-          </h1>
-        </div>
-        <div className="collapse-content">
-          <p className="text-primary text-xl text-justify bg-primary-content p-5 rounded-lg">
+<div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
+  <div class="collapse-title text-2xl text-base-content p-3">
+  Gene System Explained
+  </div>
+  <div class="collapse-content"> 
+  <p className="text-primary text-xl text-justify bg-primary-content p-5 rounded-lg">
           It is difficult to condense the entire gene system code in
                   this section, but we will attempt to touch on it at a very
                   superficial level. Every pet has a list of body parts and
@@ -171,7 +137,7 @@ function DeepDive() {
                   inside Unity, the amount of data seems scarce because it is
                   merely an illustration of the gene-based inheritance. As you
                   can see, there is an array of BodyPart and another variable
-                  called ‘InheritableBodyPartNum&apos;. bPartNum is a number that is
+                  called &apos;InheritableBodyPartNum&apos;. bPartNum is a number that is
                   randomly assigned upon pet creation and represents the number
                   of body parts that will be marked as inheritable. Inheritance
                   evaluation will be dealt with inside BodyPart.
@@ -282,10 +248,31 @@ function DeepDive() {
                     between 20% and 60% (refer to values present in the table
                     above).{" "}
                   </b>
-                </p>
+                
                 <br />
+          </p>
+  </div>
+</div>
+
+      
+{/* 
+     
+
+
+
+      <div
+        tabIndiex="1"
+        className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
+      >
+        <div className="collapse-title text-xl font-medium">
+          <h1 className="text-2xl text-base-content p-3">
+          
+          </h1>
         </div>
-      </div>
+        <div className="collapse-content">
+          
+        </div>
+      </div> */}
     </Fragment>
   );
 }
