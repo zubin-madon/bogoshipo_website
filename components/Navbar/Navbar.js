@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
+import NavbarWrapper from "./NavbarWrapper";
 
 export default function Navbar() {
   return (
     <>
-      <div className="navbar bg-dark text-neutral-content flex justify-between">
+      <NavbarWrapper>
         <div className="">
           <Link href="/" alt="home">
             <Image
@@ -70,7 +71,7 @@ export default function Navbar() {
             </nav>
           </ul>
         </div>
-      </div>
+      </NavbarWrapper>
     </>
   );
 }
